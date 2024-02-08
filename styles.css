@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+.header {
+  background-color: red;
+  padding: 1rem;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: 200ms;
+}
+
+.link:hover {
+  transform: scale(1.02);
+}
+
+#main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+#cadastro__tarefas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 2rem;
+  background-color: aqua;
+  width: 50vh;
+  height: 50vh;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+#cadastro__texto {
+  border: none;
+}
+
+footer {
+  background-color: red;
+  bottom: 0;
+  padding: 1rem;
+  text-align: center;
+}
