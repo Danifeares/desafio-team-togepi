@@ -14,6 +14,10 @@ Se o campo estiver vazio, a tarefa não poderá ser cadastrada.
 
 <br/>
 
-<img src="https://github.com/Danifeares/desafio-team-togepi/assets/117787402/8928cca7-6f71-4356-9f07-13d1540650b2" width="650" height="400">
+<img src="https://github.com/Danifeares/desafio-team-togepi/assets/117787402/8928cca7-6f71-4356-9f07-13d1540650b2" width="670" height="400">
+<br/>
 
-Você pode conferir o projeto clicando aqui:
+ ### Deploy do projeto:
+
+Você pode conferir o projeto clicando aqui:  [![Lista de Tarefas](https://img.shields.io/badge/link-%238A2BE2.svg?&style=for-the-badge&logoColor=white&logo=github)](https://danifeares.github.io/desafio-team-togepi/)
+
