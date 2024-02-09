@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Lista de tarefas</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
-    <header class="header">
-      <nav id="navbar">
-        <a class="link" href="./index.html">Cadastro</a>
-        <a class="link" href="./list.html">Tarefas</a>
-      </nav>
-    </header>
-    <main id="main">
-      <div id="cadastro__tarefas">
-        <h1>Cadastrar tarefas:</h1>
-        <input id="cadastro__texto" type="text">
+<body>
+  
+  <div id="content">
+
+    <div id="register__task">
+      <div id="register__h1">
+        <h1>Lista de tarefas</h1>
+        <img draggable="false" src="./img/togepi-icon.png" alt="Pokémon Togepi, um pequeno animal em formato de ovo, com sua casca decorada com triângulos azuis e vermelhos.">
       </div>
-    </main>
- 
+      <input id="register__text" type="text">
+      <button onclick="buttonCreate()">Cadastrar tarefa</button>
+    </div>
+  
+    <div id="container__tasks"></div>
+
+  </div>
 
   <footer>
     2024 - Desenvolvido por Bruna Liares e Daniela Felipe
@@ -28,4 +31,5 @@
 
   <script src="./main.js"></script>
 </body>
+
 </html>
