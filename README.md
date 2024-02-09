@@ -14,4 +14,6 @@ Se o campo estiver vazio, a tarefa não poderá ser cadastrada.
 
 <br/>
 
-![gif](https://github.com/Danifeares/desafio-team-togepi/assets/117787402/8928cca7-6f71-4356-9f07-13d1540650b2)
+<img src="https://github.com/Danifeares/desafio-team-togepi/assets/117787402/8928cca7-6f71-4356-9f07-13d1540650b2" width="650" height="400">
+
+Você pode conferir o projeto clicando aqui:
